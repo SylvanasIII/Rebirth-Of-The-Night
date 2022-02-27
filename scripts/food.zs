@@ -117,6 +117,12 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
 
         <mod_lavacow:meatball>.foodValues.hunger = 0;
         <mod_lavacow:meatball>.foodValues.saturationModifier = 0.1;
+        
+        <harvestcraft:chickenchowmeinitem>.foodValues.hunger = 7
+            //Chicken 1 + onion 0.5 + veggie 0.5 + veggie 0.5 + pasta 0.5 + stock 0.5 = 3.5
+        <harvestcraft:chickenchowmeinitem>.foodValues.saturationModifier = 0.75
+            //(chicken 0.6 + onion 0.6 + veggie 0.3 + veggie 0.3 + pasta 0.3 + stock 0.2)(1.05^6) = 3.0822
+            //4x = 3, x = 0.75
 
         <harvestcraft:bakedhamitem>.foodValues.hunger = 3;
             //Porkchop 1 + Apple 0.5 = 1.5
@@ -210,7 +216,7 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
 
         //Values divided by 3 to match yield
         <harvestcraft:bolognaitem>.foodValues.hunger = 1;
-            //(GroundBeef 0.5 + GroundPork 0.5 + Garlic 0.5 + Onion 0.5) / 3 = 0.67 --> 0.6
+            //(GroundBeef 0.5 + GroundPork 0.5 + Garlic 0.5 + 0.5) / 3 = 0.67 --> 0.6
         <harvestcraft:bolognaitem>.foodValues.saturationModifier = 0.5;
             //(GroundBeef + GroundPork + Garlic 0.6 + Onion 0.6 + Salt + Sugar/Honey)(1.05^8) / 3 = 0.59098217
             //1x = 0.6, x = 0.6
