@@ -153,6 +153,12 @@ i.e "Bread Saturation 0.6 --> 3x = 0.6 --> saturationModifier = 0.2"
         <harvestcraft:chickenparmasanitem>.foodValues.saturationModifier = 0.72;
             //(Chicken 0.6 + Tomato 0.6 + Cheese 2.5)(1.05^3) = 4.2832125
             //6x = 4.3, x ~= 0.72
+            
+         <harvestcraft:chickenchowmeinitem>.foodValues.hunger = 7;
+            //Chicken 1 + pasta 0.5 + Onion 0.5 + Stock 0.5 + veggie 0.5 + veggie 0.5 = 3.5
+        <harvestcraft:chickenchowmeinitem>.foodValues.saturationModifier = 0.44;
+            //(Chicken 0.6 + Onion 0.6 + Stock 0.2 + Pasta 0.3 + Veggie 0.3 + Veggie 0.3)(1.05^6) = 3.0822
+            //7x = 3.1, x ~= 0.44
    
         <harvestcraft:porklettucewrapitem>.foodValues.hunger = 3;
             //Pork 1 + Lettuce 0.5= 1.5
